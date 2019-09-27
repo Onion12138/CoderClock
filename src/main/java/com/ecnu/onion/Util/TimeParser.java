@@ -13,8 +13,4 @@ public class TimeParser {
         LocalDateTime localDateTime = LocalDateTime.parse(time, df);
         return localDateTime;
     }
-    public static void main(String[] args) {
-        String time = "2019-9-25 11:20";
-        System.out.println(getLocalTime(time));
-    }
 }

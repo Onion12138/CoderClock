@@ -14,6 +14,16 @@ import java.util.Set;
 public class ClockController {
     private static ClockController instance;
     private PhoneClock phoneClock = new PhoneClock();
+    private Set<Clock> clocks;
+
+    public PhoneClock getPhoneClock() {
+        return phoneClock;
+    }
+
+    public Set<Clock> getClocks() {
+        return clocks;
+    }
+
     private ClockController(){
         clocks = new HashSet<>();
         clocks.add(new LondonClock());
@@ -27,7 +37,7 @@ public class ClockController {
             instance = new ClockController();
         return instance;
     }
-    private Set<Clock> clocks;
+
     public void adjustTime(String time){
         LocalDateTime localTime = TimeParser.getLocalTime(time);
         phoneClock.setTime(localTime);

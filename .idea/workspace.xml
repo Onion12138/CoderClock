@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29617a7d-ed15-48af-9b17-b2daaca34ca1" name="Default Changelist" comment="" />
+    <list default="true" id="29617a7d-ed15-48af-9b17-b2daaca34ca1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecnu/onion/Util/TimeParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecnu/onion/Util/TimeParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecnu/onion/controller/ClockController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecnu/onion/controller/ClockController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ClockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ClockTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +25,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -27,7 +36,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1RK92iirZCciXq5hSYpOXeljJ74" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -49,29 +60,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ClockTest.testTimeParser">
-    <configuration name="ClockView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ecnu.onion.view.ClockView" />
+  <component name="RunManager" selected="TestNG.ClockTest.testAdjustClockTime">
+    <configuration name="ClockTest.testAdjustClockTime" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="clock" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ecnu.onion.view.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ClockTest" />
+      <option name="METHOD_NAME" value="testAdjustClockTime" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneClock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ecnu.onion.clock.PhoneClock" />
+    <configuration name="ClockTest.testAdjustTime" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="clock" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ecnu.onion.clock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ClockTest" />
+      <option name="METHOD_NAME" value="testAdjustTime" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,11 +97,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClockTest.testPhoneTime" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ClockTest.testSingleController" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="clock" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ClockTest" />
-      <option name="METHOD_NAME" value="testPhoneTime" />
+      <option name="METHOD_NAME" value="testSingleController" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -114,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ClockTest.testAdjustClockTime" />
+        <item itemvalue="TestNG.ClockTest.testAdjustTime" />
+        <item itemvalue="TestNG.ClockTest.testSingleController" />
         <item itemvalue="TestNG.ClockTest.testTimeParser" />
         <item itemvalue="TestNG.ClockTest.testClockTime" />
-        <item itemvalue="TestNG.ClockTest.testPhoneTime" />
-        <item itemvalue="Application.ClockView" />
-        <item itemvalue="Application.PhoneClock" />
       </list>
     </recent_temporary>
   </component>
@@ -133,10 +142,25 @@
       <option name="presentableId" value="Default" />
       <updated>1569404714519</updated>
       <workItem from="1569404717779" duration="6482000" />
+      <workItem from="1569566923748" duration="263000" />
+      <workItem from="1569567221631" duration="1715000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
